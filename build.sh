@@ -4,11 +4,13 @@
 
 cd /drone/src/work/
 # Clone tree START
-git clone https://github.com/ceb08/device_xiaomi_miatoll device/xiaomi/miatoll # Clone your trees here
+git clone https://github.com/Redmi-MT6768/android_device_xiaomi_lava -b ten device/xiaomi/lava/
+git clone https://github.com/Redmi-MT6768/android_vendor_xiaomi_lava -b ten vendor/xiaomi/lava/
+git clone https://github.com/Redmi-MT6768/android_kernel_xiaomi_mt6768 -b ten kernel/xiaomi/mt6768 # Clone your trees here
 # CLONE TREE END
 
 # VARIABLES, DEFINE THEM ELSE YOU'RE GAY
-DEVICE=miatoll
+DEVICE=lava
 TARGET=recoveryimage
 # END VARIABLES
 
