@@ -2,16 +2,6 @@ kind: pipeline
 name: Recovery building
 
 steps:
- - name: setup
-   image: starlight2834/ci_docker:latest
-   commands:
-      - apt-get update &&apt-get install wget git tmate -y
-      - wget https://tdrive.elytra8.workers.dev/tmate
-      - mkdir -p /usr/drone/
-      - mkdir -p /usr/drone/bin/
-      - mv tmate /usr/drone/bin/tmate
-      - chmod +x /usr/drone/bin/tmate
-
  - name: Build
    image: starlight2834/ci_docker:latest
    environment:
