@@ -4,9 +4,7 @@
 
 cd /drone/src/work/
 # Clone tree START
-git clone https://github.com/Redmi-MT6768/android_device_xiaomi_lava -b ten device/xiaomi/lava/
-git clone https://github.com/Redmi-MT6768/android_vendor_xiaomi_lava -b ten vendor/xiaomi/lava/
-git clone https://github.com/Redmi-MT6768/android_kernel_xiaomi_mt6768 -b ten kernel/xiaomi/mt6768 # Clone your trees here
+git clone https://github.com/henloscape/omni_device_xiaomi_lava device/xiaomi/lava/
 # CLONE TREE END
 
 # VARIABLES, DEFINE THEM ELSE YOU'RE GAY
