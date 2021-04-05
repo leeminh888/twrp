@@ -2,7 +2,7 @@
 clear
 # source configs/build*.sh
 
-mkdir /drone/src/work/
+sudo mkdir -p /drone/src/work/
 cd /drone/src/work/
 
 sudo chmod -R 0777 .
