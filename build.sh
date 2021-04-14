@@ -4,7 +4,7 @@
 
 cd /drone/src/work/
 # Clone tree START
-git clone https://github.com/Leminh8686/alioth-recovery-tree -b 1
+git clone https://github.com/Leminh8686/alioth-recovery-tree
 # CLONE TREE END
 
 # VARIABLES, DEFINE THEM ELSE YOU'RE GAY
@@ -12,10 +12,8 @@ DEVICE=alioth
 TARGET=recoveryimage
 # END VARIABLES
 
-. build/envsetup.sh
-export ALLOW_MISSING_DEPENDENCIES=true
-lunch omni_$DEVICE-eng
-mka $TARGET -j48
+. build/envsetup.sh &&lunch omni_$DEVICE-eng &&export ALLOW_MISSING_DEPENDENCIES=true && mka$TARGET -j48
+
 
 # Upload
 cd out/target/product/$DEVICE/
