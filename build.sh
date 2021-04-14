@@ -4,7 +4,7 @@
 
 cd /drone/src/work/
 # Clone tree START
-git clone https://github.com/Leminh8686/alioth-recovery-tree
+git clone https://github.com/Leminh8686/alioth-recovery-tree -b 1
 # CLONE TREE END
 
 # VARIABLES, DEFINE THEM ELSE YOU'RE GAY
