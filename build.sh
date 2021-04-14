@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This, is the main point, where all things change
+# This, is the main point, where all things changer
 
 cd /drone/src/work/
 # Clone tree START
