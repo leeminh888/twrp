@@ -4,7 +4,7 @@
 
 cd /drone/src/work/
 # Clone tree START
-git clone https://github.com/Leminh8686/alioth-recovery-tree -b 2
+git clone https://github.com/leeminh888/xiaomi-vayu-recovery -b pbrb11
 # CLONE TREE END
 
 # VARIABLES, DEFINE THEM ELSE YOU'RE GAY
